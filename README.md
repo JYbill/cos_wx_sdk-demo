@@ -529,9 +529,9 @@ export default myCos;
 
 + 源码
 
-> 码云地址：
+> 码云地址：https://gitee.com/JYbill/cos_wx_sdk-demo
 >
-> Github地址：
+> Github地址：[https://github.com/JYbill/cos_wx_sdk-demo](https://github.com/JYbill/cos_wx_sdk-demo)
 
 + 测试
 
