@@ -1,0 +1,8 @@
+my:
+  clound-cos:
+    secret-id: AKIDfM3gEblicSCmCPO8ew1sVt30kGXZNzOZ
+    secret-key: 0mJbdT6UdWBbmjRu75pKbeT4QXP1PYS7
+    region: ap-nanjing
+    bucketName: myblogspringboot-1300326898
+    url: image.jybill.top
+    avatar-prefix: /*

@@ -1,0 +1,30 @@
+<!-- index.wxml -->
+<view>
+  <view class="cos_tasks" style="display: flex; flex-wrap: wrap;">
+    <view class="task" wx:for="{{taskArr}}" style="width: 100vw; height: 200rpx; background-color: #999; text-align: center; margin: 10rpx 10rpx">
+      存储桶: {{item.Bucket}}
+      保存桶位置: {{item.Key}}
+      桶地区: {{item.Region}}
+      taskId: {{item.id}}
+      状态: {{item.state}}
+    </view>
+  </view>
+  <text>获取avatar下的的所有文件</text>
+  <button size="default" bind:tap="tapCOSBucket">获取avatar下的的所有文件</button>
+  <text>简单上传文件</text>
+  <button size="default" bind:tap="tapSimpleUpload">简单上传文件</button>
+  <text>上传单个文件</text>
+  <button size="default" bind:tap="tapUploadFile">update one file</button>
+  <view class="controller" style="margin-top: 30rpx; width: 100vw; display: flex">
+    <button size="mini" type="default" bind:tap="tapPause">pause</button>
+    <button size="mini" type="primary" bind:tap="tapStart">start</button>
+    <button size="mini" type="warn" bind:tap="tapDel">delete</button>
+  </view>
+  <text>上传多个文件</text>
+  <button size="default" type="primary" bind:tap="tapUploadMoreFiles">update more file</button>
+  <view class="files-controller" style="margin-top: 30rpx; width: 100vw; display: flex">
+    <button size="mini" type="default" bind:tap="tapPauseFiles">pause</button>
+    <button size="mini" type="primary" bind:tap="tapStartFile">start</button>
+    <button size="mini" type="warn" bind:tap="tapDelFile">delete</button>
+  </view>
+</view>
